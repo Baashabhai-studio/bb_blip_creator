@@ -208,5 +208,12 @@ bb_blip_creator/
 ---
 
 ## 📝 Credits & terms
-Made by **Baasha Bhai (BB)** and released **free** to the community. Keep the credits intact.
-Enjoy! If you build something cool with it, a shout-out is always appreciated. 💙
+Made by **Baasha Bhai (BB)** — **Baashabhai Studio**. Released **free** to the community
+under the MIT license. Keep the credits intact. 💙
+
+We build FiveM **scripts** and **custom maps / MLOs**:
+- 🌐 Website: https://www.baashabhai.com
+- 📺 YouTube: https://www.youtube.com/c/Baashabhaigamer
+- 💬 Discord: https://discord.gg/5XjyX44FQs
+
+If you build something cool with it, a shout-out is always appreciated.
