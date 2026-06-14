@@ -213,7 +213,9 @@ under the MIT license. Keep the credits intact. 💙
 
 We build FiveM **scripts** and **custom maps / MLOs**:
 - 🌐 Website: https://www.baashabhai.com
-- 📺 YouTube: https://www.youtube.com/c/Baashabhaigamer
-- 💬 Discord: https://discord.gg/5XjyX44FQs
+- 🛒 Store: https://store.baashabhai.com/category/2210418
+- ☕ Support us: https://buymeacoffee.com/baashabhai/extras
+- 📺 YouTube: https://www.youtube.com/@Baashabhai/videos
+- 💬 Discord: https://discord.gg/FZMWRCtCs6
 
 If you build something cool with it, a shout-out is always appreciated.
