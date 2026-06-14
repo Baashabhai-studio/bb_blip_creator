@@ -1,0 +1,7 @@
+# Runtime data (server-generated saved blips) — don't publish
+data/blips.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log

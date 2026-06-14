@@ -1,0 +1,76 @@
+==================================================
+  BB BLIP CREATOR  -  by Baasha Bhai (BB)
+  QUICK START  (full guide is in README.md)
+==================================================
+
+1) INSTALL
+   - Put the "bb_blip_creator" folder in your resources.
+   - Add this line to your server.cfg:
+
+         ensure bb_blip_creator
+
+   - Restart the server. Done. No SQL, no dependencies.
+
+--------------------------------------------------
+
+2) HOW TO OPEN IT
+   - In game, type:   /blips
+   - Or press:        F6   (you can rebind it in
+                            Settings > Key Bindings > FiveM)
+   - Only ADMINS can open it.
+
+--------------------------------------------------
+
+3) HOW TO MAKE A BLIP
+   - Open /blips  ->  "Create" tab
+   - Type a name (Label)
+   - Set location: click "Use my position" or "Use waypoint"
+   - Pick a sprite (search by name or number)
+   - Pick a color + scale
+   - You will SEE a live preview on your map
+   - Click "Create blip"  ->  it shows for EVERYONE instantly
+   - "Manage" tab = edit / delete / teleport to any blip
+
+--------------------------------------------------
+
+4) "I'M ADMIN BUT IT SAYS NO PERMISSION"  (READ THIS!)
+
+   ** There are TWO kinds of restart. They are NOT the same: **
+
+     restart bb_blip_creator   -> reloads the SCRIPT only
+                                  (does NOT reload server.cfg admins!)
+
+     full server stop + start  -> reloads EVERYTHING
+                                  (this is what loads group.admin)
+
+   So if you added yourself as admin in server.cfg, you MUST
+   fully restart the server - a resource restart will not work.
+
+   FASTEST FIX (works instantly, no full restart):
+     Open config.lua and put your license in Config.Admins:
+
+         Config.Admins = {
+             'license:YOUR_LICENSE_HERE',
+         }
+
+     Then run:   restart bb_blip_creator
+     Now /blips works.
+
+   Don't know your license?
+     Set  Config.Debug = true  in config.lua, restart the
+     resource, run /blips, and look at your server console -
+     it prints your license and why you were denied.
+
+--------------------------------------------------
+
+5) ADMINS (the normal way)
+   Anyone who is already an admin works automatically:
+     - txAdmin / server.cfg  ->  group.admin
+     - QBCore / QBox         ->  god or admin
+     - ESX                   ->  admin / superadmin / mod
+   Nothing to configure - just make sure the server was
+   fully restarted after setting them up.
+
+==================================================
+  Made FREE for the community. Keep the credits. <3
+==================================================
